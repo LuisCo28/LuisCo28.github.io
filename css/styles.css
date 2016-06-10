@@ -24,9 +24,10 @@ h1,figure,p {
 }
 
 #encabezado h1 {
-    font-size: 2.5em;
+    font-size: 3.5em;
     padding-bottom: 3px;
-    border-bottom: 1px dotted lightgray;
+    border-bottom: 1px dotted dodgerblue;
+    color: dodgerblue;
 }
 
 #contenido {
@@ -37,16 +38,10 @@ h1,figure,p {
    height: 300px;
    width: 220px;
    display: inline-block;
-   background-color: aqua;
-   margin-top: 30px;
+   margin-top: 30px;    
    margin-right: 100px;
    margin-left: 100px; 
    align-items: center;    
-}
-
-#pie {
-   min-height: 150px;
-   margin-top: 50px;
 }
 
 #navegador {
@@ -93,10 +88,10 @@ h1,figure,p {
     display: flex !important;
 }
 
-#direccion {
+#direccion-estadio {
     text-align: center;
-    color: darkgray;
-    font-size: 0.8em;
+    color: dodgerblue;
+    font-size: 1em;
 }
 
 .container {
@@ -120,16 +115,40 @@ h1,figure,p {
     position: fixed;
 }
 
-#notass{
-    text-align: left;
-}
 #nota {
     min-height: 400px;
     width: 900px;
     margin: 30px;
     margin-left: 30px;
     text-align: justify;
-    color: orange;
+    color: greenyellow;
     font-family: inherit;
     font-weight: bold;
+}
+
+#info-juegos {
+    min-height: 200px;
+    width: 900px;
+    margin-top: 50px;
+    margin-left: 30px;
+    color: red;
+    font-weight: bold;
+    text-decoration: inherit;
+    display: flex;
+    justify-content: space-around;
+}
+
+#pie {
+   min-height: 150px;
+   margin-top: 50px;
+}
+
+#politicas-pagina {
+    text-align: center;
+    padding: 5px 0;
+    color: dodgerblue;
+}
+
+#politicas-pagina abbr {
+    border-bottom: 1px dotted dodgerblue;;
 }
